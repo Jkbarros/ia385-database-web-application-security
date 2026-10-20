@@ -1,6 +1,6 @@
-﻿# IA 385 â€” Database and Web Application Security
+﻿# IA 385 - Database and Web Application Security
 
-College coursework archive for **IA 385 â€” Database and Web Application Security** at Eastern Michigan University.  
+College coursework archive for **IA 385 - Database and Web Application Security** at Eastern Michigan University.  
 Labs and assignments on database hardening, Oracle install notes, and web application security topics.
 
 **Author:** [Julio Barros](https://github.com/Jkbarros)  
@@ -10,6 +10,7 @@ Labs and assignments on database hardening, Oracle install notes, and web applic
 
 | Area | Description |
 |------|-------------|
+| [Archive index](docs/archive-index.md) | Catalog of files in `archive/` with direct links |
 | [`archive/canvas-submissions/`](archive/canvas-submissions/) | Labs 1-2, assignments 3-6, Oracle install write-ups |
 
 ### Highlights
@@ -31,7 +32,7 @@ flowchart LR
 
 | Course | Link |
 |--------|------|
-| IA 103 â€” Information Security Overview | [information-security-overview](https://github.com/Jkbarros/information-security-overview) |
+| IA 103 - Information Security Overview | [information-security-overview](https://github.com/Jkbarros/information-security-overview) |
 | college-projects index | [college-projects](https://github.com/Jkbarros/college-projects) |
 
 ## Roadmap
@@ -46,4 +47,4 @@ flowchart LR
 
 ## License
 
-Content Â© Julio Barros. Use at your own risk.
+Content © Julio Barros. Use at your own risk.
