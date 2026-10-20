@@ -1,7 +1,9 @@
 ﻿# IA 385 - Database and Web Application Security
 
-College coursework archive for **IA 385 - Database and Web Application Security** at Eastern Michigan University.  
-Labs and assignments on database hardening, Oracle install notes, and web application security topics.
+![Database lab progression](docs/demo.gif)
+
+College coursework portfolio for **IA 385** at Eastern Michigan University.  
+Hands-on work across **MySQL**, **SQL Server**, and **Oracle**, plus **users/roles**, **password policy**, and **SQL** assignments.
 
 **Author:** [Julio Barros](https://github.com/Jkbarros)  
 **Index:** [college-projects](https://github.com/Jkbarros/college-projects)
@@ -10,40 +12,51 @@ Labs and assignments on database hardening, Oracle install notes, and web applic
 
 | Area | Description |
 |------|-------------|
-| [Archive index](docs/archive-index.md) | Catalog of files in `archive/` with direct links |
-| [`archive/canvas-submissions/`](archive/canvas-submissions/) | Labs 1-2, assignments 3-6, Oracle install write-ups |
+| [Submissions catalog](docs/submissions-catalog.md) | Labs 1–2 and assignments 3–6 |
+| [Lab 1 — Lab build](docs/lab-1-lab-build.md) | Environment setup |
+| [Lab 2 — MySQL install](docs/lab-2-mysql-install.md) | MySQL installation lab |
+| [Assignment 3 — SQL Server](docs/assignment-3-sql-server.md) | SQL Server Community Edition |
+| [Assignment 4 — Oracle](docs/assignment-4-oracle-install.md) | Oracle install walkthrough |
+| [Assignment 5 — Users & roles](docs/assignment-5-users-roles.md) | MySQL users, roles, password validation |
+| [Assignment 6 — SQL queries](docs/assignment-6-sql-queries.md) | Query exercises |
+| [Archive index](docs/archive-index.md) | Original DOCX links |
+| [`archive/canvas-submissions/`](archive/canvas-submissions/) | Canvas exports |
 
 ### Highlights
 
-- Lab 1 and Lab 2 (final submissions)
-- Assignments 3-6 including Oracle installation documentation
+- Six DOCX submissions converted to markdown (SQL snippets fenced where detected)
+- Multi-DB thread: **MySQL → SQL Server → Oracle → hardening & queries**
 
 ## Topics covered
 
 ```mermaid
 flowchart LR
-  DB[Databases and Oracle]
-  W[Web application threats]
-  H[Hardening and labs]
-  DB --> W --> H
+  L[Labs and installs]
+  DB[SQL Server and Oracle]
+  H[Users roles and SQL]
+  L --> DB --> H
+```
+
+## Regenerate docs
+
+```bash
+pip install -r requirements.txt
+python scripts/docx_to_markdown.py
+python scripts/generate_readme_demo.py
 ```
 
 ## Related repos
 
 | Course | Link |
 |--------|------|
-| IA 103 - Information Security Overview | [information-security-overview](https://github.com/Jkbarros/information-security-overview) |
+| IA 329 - Policy Development | [ia329-policy-development-info-assurance](https://github.com/Jkbarros/ia329-policy-development-info-assurance) |
+| IA 103 - Information Security | [information-security-overview](https://github.com/Jkbarros/information-security-overview) |
 | college-projects index | [college-projects](https://github.com/Jkbarros/college-projects) |
-
-## Roadmap
-
-- [ ] Convert key submissions to markdown in `docs/` (same pattern as IA 103)
-- [ ] Redact any sensitive identifiers before expanding public docs
 
 ## Notes for readers
 
 - This repo documents **my submitted work** for academic context only.
-- EMU or publisher course materials are not redistributed beyond my own submissions in `archive/`.
+- Lab usernames in SQL examples are fictional course accounts, not production credentials.
 
 ## License
 

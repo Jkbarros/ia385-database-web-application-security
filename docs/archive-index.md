@@ -1,7 +1,7 @@
-# Archive index — ﻿# IA 385 - Database and Web Application Security
+# Archive index — IA 385
 
-Readable map of files under `archive/`.
-Original PDF/DOCX submissions from Canvas; open the linked file for full content.
+Readable map of files under `archive/`.  
+Prefer markdown in `docs/` when available.
 
 ## canvas-submissions
 
@@ -14,8 +14,7 @@ Original PDF/DOCX submissions from Canvas; open the linked file for full content
 | [Lab 1 Final.docx](../archive/canvas-submissions/Lab%201%20Final.docx) | docx |
 | [Lab 2 Final.docx](../archive/canvas-submissions/Lab%202%20Final.docx) | docx |
 
-
 ## Notes
 
-- Filenames match Canvas export names (including duplicates like `-1` copies).
-- Prefer markdown in `docs/` when available; this index is the fallback catalog.
+- Run `python scripts/docx_to_markdown.py` after updating DOCX in `archive/`.
+- Course index: [submissions-catalog.md](submissions-catalog.md).
